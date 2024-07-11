@@ -9,11 +9,11 @@ class HeaderElement extends HTMLElement {
     </header>
     <ul>
       <li><a href="index.html">Hjem</a></li>
-      <li><a href="generic.html">Min historie</a></li>
-      <li><a href="elements.html">Bok</a></li>
+      <li><a href="story.html">Min historie</a></li>
+      <li><a href="bok.html">Bok</a></li>
       <li><a href="elements.html">Salg</a></li>
       <li><a href="elements.html">Bilder</a></li>
-      <li><a href="elements.html">om meg</a></li>
+      <li><a href="about.html">om meg</a></li>
      
       
    
@@ -33,11 +33,10 @@ class HeaderElement extends HTMLElement {
                   ><img src="https://www.norli.no/media/catalog/product/9/7/9788269288001_1.jpg?auto=webp&format=pjpg&width=728&height=910&fit=cover" alt=""
                 /></a>
                 <p>
-                  Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                  dolore aliquam.
+                Boken, skrevet av Evald Fjærgård på oppdrag fra Per Erling Øverby, forteller om vennskapet mellom Håkon Banken og Per Erling fra 1986 til Håkons død i 2018. Den inneholder bilder og historier om Håkons liv, musikk og opptredener, og er fylt med bidrag fra både Håkon selv og andre som kjente ham.
                 </p>
                 <ul class="actions">
-                <li><a href="#" class="button">Les mer</a></li>
+                <li><a href="/bok.html" class="button">Les mer</a></li>
               </ul>
               </article>
            
@@ -55,9 +54,10 @@ class HeaderElement extends HTMLElement {
     <li class="icon solid fa-envelope">
       <a href="#">per_erling@mail.com</a>
     </li>
-    <li class="icon solid fa-phone">90 909 909</li>
+    <li class="icon solid fa-phone">988 87 531</li>
     <li class="icon solid fa-home">
-      Norge
+    
+    Norge
     </li>
   </ul>
 </section>
