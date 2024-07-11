@@ -24,7 +24,7 @@
           <!-- Header -->
           <header id="header">
             <a href="index.html" class="logo"
-              ><strong>Per Erling Øverby </strong> Min historie</a
+              ><strong>Per Erling Øverby </strong> -min historie</a
             >
             <ul class="icons">
               <li>
@@ -68,7 +68,12 @@
                 src="https://www.norli.no/media/catalog/product/9/7/9788269288001_1.jpg?auto=webp&format=pjpg&width=728&height=910&fit=cover"
                 alt=""
             /></span>
-
+            <div class="quote">
+              <p>
+                Håkon Banken ble ved en tilfeldighet en av Norges mestselgende
+                artister, uten at han kanskje ønsket det sel
+              </p>
+            </div>
             <p>
               Selv tøffe raggarer kunne bli rørt til tårer når Håkon Banken sto
               på scenen, og noen ganger var begeistringen like stor som om Elvis
@@ -86,6 +91,7 @@
               og oppfinnsom, og en allsidig person som biloppretter, kremmer og
               familiemann.
             </p>
+
             <p>
               Boken, skrevet av Evald Fjærgård på oppdrag fra Per Erling Øverby,
               er en samling av mange historier om Håkon Banken. Den tar
@@ -114,7 +120,7 @@
             </button>
             <p>
               Bestilling sendes på mail til Per Erling. Boken blir tilsendt med
-              faktura. Porto kommer i tillegg.
+              faktura. Frakt kommer i tillegg.
             </p>
           </section>
         </div>
@@ -127,6 +133,29 @@
         </div>
       </div>
     </div>
+
+    <style>
+      .quote p {
+        position: relative;
+        font-style: italic;
+        color: rgb(144, 71, 71);
+        font-size: 1.2rem;
+        width: 20rem;
+      }
+
+      .quote p::before {
+        content: "“";
+        position: absolute;
+        left: -10px;
+        top: 0;
+      }
+
+      .quote p::after {
+        content: "v ”";
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
