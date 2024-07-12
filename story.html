@@ -135,6 +135,10 @@
                 </p>
               </div>
             </div>
+            <p style="font-style: italic">
+              Utdrag fra boken Riktige venner -min historie om Håkon Banken.
+            </p>
+            <a class="button" href="/bok.html">Les mer</a>
           </section>
         </div>
       </div>
@@ -169,6 +173,14 @@
         .container {
           flex-direction: column; /* Elementene vil stables vertikalt på små skjermer */
           margin-bottom: 1rem;
+        }
+
+        .container .text {
+          order: 2; /* Teksten vil vises etter bildet på små skjermer */
+        }
+
+        .container .image {
+          order: 1; /* Bildet vil vises først på små skjermer */
         }
       }
     </style>
